@@ -1,0 +1,85 @@
+body {
+  font-family: gilroy;
+  background-color: #ffadf2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: 900;
+}
+
+.container {
+  width: 500px;
+  background-color: antiquewhite;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid pink;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  text-align: center;
+}
+h2 {
+  color: #e2697e;
+  margin-bottom: 30px;
+}
+.love-calculator {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  color: pink;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+#result {
+  font-size: 22px;
+  margin-top: 15px;
+  color: palevioletred;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 70%;
+    background-color: antiquewhite;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid pink;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 86%;
+    padding: 7px;
+    margin-top: 10px;
+    color: pink;
+    border-radius: 9px;
+    border: none;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-size: 27px;
+  }
+}
